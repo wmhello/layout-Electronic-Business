@@ -1,0 +1,148 @@
+
+
+
+.top-nav{
+
+  background: #eee;
+
+}
+
+.top-nav .item{
+  display: inline-block;
+  padding: 6px 10px;
+  color: #666;
+}
+
+.top-nav .item:hover{
+  color: #333;
+}
+
+.header{
+  padding: 20px 0px;
+}
+
+.header .logo{
+  font-size: 30px;
+}
+
+.header .search-bar{
+  border:2px solid #dd182b;
+  background-color: #dd182b;
+}
+
+.header .search-bar input,
+.header .search-bar button{
+  border-width: 0px;
+  padding: 10px;
+  display: block;
+  float: left;
+  outline: 0px;
+}
+
+.header .search-bar input{
+   width: 80%
+}
+
+.header .search-bar button{
+   width:20%;
+   background:#dd182b;
+  color: #fff;
+}
+
+.header .search-bar input:focus{
+   box-shadow: inset 0 0 2px 2px rgba(0,0,0, 0.5);
+}
+
+.header .search-bar button:hover{
+  background: #90111d
+}
+
+.header .cart{
+  text-align: center;
+}
+
+.header .cart a{
+  float:right;
+  width: 80%;
+  border: 2px solid #eee;
+  padding: 10px;
+  background: #fff;
+  color: #dd182b;
+}
+.main-promote .col-6{
+  background: #dedede;
+}
+.main-promote .cat{
+  background: #6e6568;
+  color: #fff;
+}
+
+.main-promote .cat .item {
+  padding: 16px 20px;
+}
+
+.main-promote .cat .item:hover{
+  background: rgba(0, 0, 0, 0.2);
+}
+.main-promote .info{
+  padding: 10px;
+  background: #fff;
+  color: #888;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+
+}
+
+.main-promote .info>*{
+  margin-bottom: 10px;
+  box-shadow:
+}
+.main-promote .info .avatar{
+   background: #aaa;
+   width: 50px;
+   height: 50px;
+   float: left;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+
+
+.cat-promote{
+
+}
+
+.cat-promote .title::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 22px;
+  background: #dd182b;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.cat-promote .title{
+  font-size: 22px;
+}
+
+.cat-promote .item{
+  padding: 5px;
+}
+
+.cat-promote .card{
+  height: 300px;
+  background: #ccc;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.footer{
+  text-align: center;
+  padding: 30px 0;
+  margin-top:30px;
+  background: #eee;
+  color: #999;
+}
+
+.footer a{
+  color: #999;
+}
